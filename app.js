@@ -92,7 +92,7 @@ document.querySelector(".btn-roll").addEventListener("click", () => {
 
 document.querySelector(".btn-hold").addEventListener("click", () => {
     game.hold()
-    if (scores[activePlayer] >= 10){
+    if (scores[activePlayer] >= 100){
         game.end()
     } else {
         game.nextPlayer()
